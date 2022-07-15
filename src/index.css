@@ -1,0 +1,208 @@
+
+:root {
+    --button-color: #222831;
+    --background-color: white;
+    --table-row-color: #E8ECF1;
+    --table-head-color: #222831;
+    --button-hover-color: #363e4d;
+
+    /* secondary palette */ 
+    /*
+    --button-color: #14274E;
+    --background-color: #F1F6F9;
+    --table-row-color: #9BA4B4;
+    --table-head-color: #14274E; 
+    */
+  }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--background-color);
+}
+
+
+#root
+{
+    margin: 25px;
+    display: block;
+
+    font-family: 'Nunito', sans-serif; 
+}
+
+#main-table, #secondary-table, th, td
+{
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+table
+{
+    border: 2px solid var(--table-row-color);
+}
+
+#days, #st-tr
+{
+    background-color: var(--table-head-color);
+    color: white;
+}
+
+thead th
+{
+    height: 6vh;
+}
+
+th, td
+{
+  width: 13vw;
+  height: 4.5vh;
+
+}
+
+td
+{
+    font-weight: 600;
+}
+
+.empty-st-th
+{
+    width: 10%
+}
+.st-tr
+{
+    width: 25%;
+}
+
+.st-th, .st-td 
+{
+    width: 35%
+}
+
+tr:nth-child(even)
+{
+    background-color: var(--table-row-color);
+}
+
+#mtbody th
+{
+    font-size: 1.2em;
+}
+
+#second-table-container
+{
+    margin: 4vh auto 4vh auto;
+
+    width: 30%;
+}
+
+#main-table-container
+{
+    margin: 4vh auto 4vh auto;
+    width: 50%;
+    
+}
+
+
+#table-container
+{
+    display: flex;
+    height: 55vh;
+}
+
+
+#gradeforms1, #gradeforms2, #faultsforms
+{
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+th
+{
+    font-weight: 700;
+}
+
+
+#buttons-container, #forms-container
+{
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+#ng-button-container, #rf-button-container
+{
+    border-left: 45%;
+}
+
+button
+{
+    border-radius: 30px;
+    border: none;
+
+    background-color: var(--button-color);
+    min-width: 10.5vw;
+    min-height: 3.5vh;
+
+    margin-top: 1vh;
+
+    font-size: 1.2em;
+    font-weight: 600;
+
+    font-family: 'Nunito', sans-serif; 
+    color: white;
+}
+button:hover
+{
+    background-color: var(--button-hover-color)
+}
+
+#forms-container
+{
+    display: block;
+}
+
+label
+{
+    font-size: 1.3em;
+}
+
+p
+{
+    margin-top: 4px;
+}
+
+select
+{
+    min-width: 9vw;
+    min-height: 2.5vh;
+    text-align: center;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 5px;
+
+}
+input[type=text], input[type=number]
+{
+    border-radius: 5px;
+    border: 1px solid;
+    min-height: 2.5vh;
+}
+input[type=text]:focus
+{
+    appearance: none;
+}
+
+h1
+{
+    font-size: 4em;
+    text-align: center;
+}
+
