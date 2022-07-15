@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GabrielFrRibeiro/novo.git/static/css/main.a965f514.css",
+    "main.js": "/GabrielFrRibeiro/novo.git/static/js/main.43195e75.js",
+    "static/js/787.99a6a76f.chunk.js": "/GabrielFrRibeiro/novo.git/static/js/787.99a6a76f.chunk.js",
+    "index.html": "/GabrielFrRibeiro/novo.git/index.html",
+    "main.a965f514.css.map": "/GabrielFrRibeiro/novo.git/static/css/main.a965f514.css.map",
+    "main.43195e75.js.map": "/GabrielFrRibeiro/novo.git/static/js/main.43195e75.js.map",
+    "787.99a6a76f.chunk.js.map": "/GabrielFrRibeiro/novo.git/static/js/787.99a6a76f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a965f514.css",
+    "static/js/main.43195e75.js"
+  ]
+}
